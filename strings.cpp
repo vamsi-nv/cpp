@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-int main(){
+int main()
+{
 
   string greeting = "Hello";
   string name = "Vroot";
@@ -10,8 +11,10 @@ int main(){
   cout << greeting + " " + name + "\n";
   cout << greeting.append(" Elon Musk\n");
   cout << greeting.length();
-  cout << "\n" << greeting[0];
-  cout << "\n" << greeting[greeting.length() - 2];
+  cout << "\n"
+       << greeting[0];
+  cout << "\n"
+       << greeting[greeting.length() - 2];
 
   string fullname;
   cout << "\nEnter your fullname : ";
